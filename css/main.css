@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,9 +11,32 @@ html {
 .link-card:hover {
   background-color: # ;
   border-color: # ;
-  color: #fff;
+  color: #;
 }
 
 .link-card:hover .btn {
   background-color: # ;
+}
+
+body {
+  padding: 1rem;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+dl {
+  font-size: .875rem;
+}
+
+.btn {
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
 }
