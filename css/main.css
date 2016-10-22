@@ -20,6 +20,7 @@ html {
 .link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
+  line-height: 1.5rem;
   margin: 0;
 }
 
@@ -30,24 +31,41 @@ body {
 }
 
 main {
-  padding: .4em .75em .5em;
+  padding: 1rem;
   border: 3px solid #9a816d;
   border-radius: 6px;
   background-color: #dcd4cd;
+  margin: 0;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.5rem;
+  padding: 0;
 }
 
 dl {
   font-size: .875rem;
 }
 
+dt {
+  display: block;
+}
+
+dd {
+  font-style: italic;
+  display: block;
+  margin: 0;
+  text-align: right;
+}
+
+div {
+  text-align: center;
+}
+
 .btn {
   font-size: 1.125rem;
-  padding: 1em;
+  padding: .4em .75em .5em;
   background-color: #785439;
   color: #f0eee8;
   font-family: Dosis, sans-serif;
