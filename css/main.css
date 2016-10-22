@@ -5,3 +5,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.link-card:hover {
+  background-color: # ;
+  border-color: # ;
+  color: #fff;
+}
+
+.link-card:hover .btn {
+  background-color: # ;
+}
