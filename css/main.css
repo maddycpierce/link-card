@@ -75,13 +75,12 @@ div {
   color: #f0eee8;
   font-family: Dosis, sans-serif;
   border-radius: 8px;
+  clear: both;
 }
 
 .btn-wrap {
   display: inline-block;
   text-align: center;
-  float: right;
-  clear: both;
 
 }
 
