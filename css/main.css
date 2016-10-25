@@ -45,23 +45,19 @@ p {
 dl {
   font-size: .875rem;
   display: block;
-  margin: 0 0 1rem;
+  text-align: left;
 }
 
 dt {
-  display: block;
-  padding-right: 10px;
-  float: left;
-  clear: left;
+  display: inline-block;
+  width: 45%;
 }
 
 dd {
+  display: inline-block;
   font-style: italic;
-  display: block;
   margin: 0;
-  float: right;
-  text-align: left;
-
+  width: 45%;
 }
 
 div {
@@ -75,15 +71,20 @@ div {
   color: #f0eee8;
   font-family: Dosis, sans-serif;
   border-radius: 8px;
-  clear: both;
+  text-align: center;
 }
 
 .btn-wrap {
   display: inline-block;
-  text-align: center;
 
 }
 
 .link-card:hover .btn {
   background-color: #512200;
+}
+
+.genus-species {
+  border-top: solid 2px #9a816d;
+  border-bottom: solid 2px #9a816d;
+  padding: .4em .75em .5em;
 }
